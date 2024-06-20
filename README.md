@@ -23,3 +23,10 @@ Example_Glade.py  (after launching it)
 
 Example_Glade.py  (after launching it, then manually expanding the window)
 * ![screenshot](https://github.com/BSFEMA/GTK_Help/blob/master/Example_Glade_(Manually_Expanded).png?raw=true)
+
+##
+
+## Notes:
+I realize that I can remove the ScrolledWindow and just have the TreeView in my Glade example, which would then full display the TreeView.  While this is almost what I want, I would still like to have a ScrolledWindow in order to get scrollbars in case there is a lot of data or the filenames are really large and would scroll off the screen.  Ultimately, this was just an example, and I'm looking to create something with more columns which may necessitate a horizontal scrollbar.
+
+## Any suggestions on what I'm doing wrong in Glade or if there is a way to set the ScrolledWindow size based on the fully displayed TreeView size or any other solutions would be most appreciated. 
